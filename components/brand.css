@@ -1,0 +1,23 @@
+.brand {
+    padding: 52px 0;
+    background: #D3D3D3;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* flex-wrap: wrap;
+        gap: 40px;
+        justify-content: unset; */
+    }
+}
+
+@media (width <= 992px) {
+    .brand {
+        .container {
+            flex-wrap: wrap;
+            gap: 40px;
+            justify-content: unset;
+        }
+    }
+}
